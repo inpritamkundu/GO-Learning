@@ -20,6 +20,7 @@ func main() {
 	// Second: 5
 	// Year: 6 (2006)
 	// Timezone: -0700
+	// Monday for weekday
 
-	fmt.Println("formatting date: ", presentTime.Format("02-01 15:04"))
+	fmt.Println("formatting date: ", presentTime.Format("02-2006 Monday"))
 }
